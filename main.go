@@ -1,7 +1,11 @@
 package main
 
-import "jtr/modules"
+import (
+	"fmt"
+	"jtr/modules"
+)
 
 func main() {
 	modules.DetectJbPrograms()
+	fmt.Scanln()
 }
